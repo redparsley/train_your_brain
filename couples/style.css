@@ -1,0 +1,209 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+body {
+    background-color: rgb(209, 208, 207);
+    font-family: 'M PLUS Rounded 1c', montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+/* SETTINGS */
+
+form h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+}
+
+form {
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings__text {
+    text-align: center;
+}
+
+.settings__btn {
+    padding: 15px;
+    width: max-content;
+    text-align: center;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(143, 59, 28);
+    color: rgb(78, 32, 16);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.settings__btn:hover {
+    background-color: rgb(169, 70, 34);
+    transition: ease-in-out 0.2s;
+}
+
+
+.settings__input {
+    font-size: 40px;
+    width: 40px;
+    padding: 30px;
+    height: 40px;
+    border: none;   
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 900;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.settings__input:hover {
+    transition: ease-in-out 0.2s;
+    background-color: rgb(255, 242, 237);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.prepare {
+    left: 0; 
+    right: 0; 
+    top: 30vh;
+    margin: 0 auto;
+    width: auto;
+    font-size: 60px;
+}
+
+.win__message {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+    background-color: #fff;
+    border-radius: 105px;
+    padding: 1em;
+}
+
+.restart__btn {
+    left: 0; 
+    right: 0; 
+    top: 12em;
+    margin: 0 auto;
+    width: max-content;
+}
+
+
+span {
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    top: 40px;
+    background: linear-gradient(transparent 5%, rgb(209, 208, 207));
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    max-height: 100%;
+}
+
+.cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 25px 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__el {
+    display: flex;
+    width: 17vh;
+    height: 20vh;
+    padding: 10px;
+    background-color: rgb(226, 180, 65);
+    background-image: url('https://svgsilh.com/svg/2798822.svg');
+    background-size: 15vh 20vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 15px;
+    font-size: 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}   
+
+.card__el:hover {
+    transition: ease-in-out 0.2s;
+    background-color: rgb(194, 154, 65);
+}
+
+.warning {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.opened {
+    cursor: default;
+}
+
+.card_1.opened {
+    background-image: url('https://i.pinimg.com/736x/33/b5/75/33b575588330127834be8354eb530508.jpg');
+    background-size: cover;
+}
+
+.card_2.opened {
+    background-image: url('https://i.pinimg.com/564x/81/21/6a/81216ab1a1ef367871c498a1b515a3f9.jpg');
+    background-size: cover;
+}
+
+.card_3.opened {
+    background-image: url('https://i.pinimg.com/564x/b2/40/6d/b2406dc724ebb3ebbc922772cca21e28.jpg');
+    background-size: cover;
+}
+
+.card_4.opened {
+    background-image: url('https://i.pinimg.com/564x/50/28/57/502857878c6e2f3dc0c32416607a34c0.jpg');
+    background-size: cover;
+}
+
+.card_5.opened {
+    background-image: url('https://i.pinimg.com/564x/6b/d4/0d/6bd40de3edce79891c72438ac6d3abf5.jpg'); 
+    background-size: cover;
+}
+
+.card_6.opened {
+    background-image: url('https://i.pinimg.com/564x/8a/56/1b/8a561bbf993ba6448c84fd97d7a2de8b.jpg'); 
+    background-size: cover;
+}
+
+.card_7.opened {
+    background-image: url('https://i.pinimg.com/736x/04/f9/ac/04f9acd676f1fd28a78e334ddd9b549c.jpg'); 
+    background-size: cover;
+}
+
+.card_8.opened {
+    background-image: url('https://i.pinimg.com/736x/04/f6/73/04f673dd83adc84718d067890221a87b.jpg'); 
+    background-size: cover;
+}
