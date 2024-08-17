@@ -15,7 +15,7 @@ body {
 /* SETTINGS */
 
 form h1 {
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
@@ -23,9 +23,9 @@ form h1 {
 }
 
 form {
-    padding: 100px;
     display: flex;
-    gap: 50px;
+    padding: 10vw;
+    gap: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -53,16 +53,14 @@ form {
     transition: ease-in-out 0.2s;
 }
 
-
 .settings__input {
-    font-size: 40px;
-    width: 40px;
-    padding: 30px;
-    height: 40px;
+    font-size: 0.8em;
+    text-transform: lowercase;
+    width: 60%;
+    padding: 10px;
     border: none;   
-    border-radius: 100%;
+    border-radius: 20px;
     text-align: center;
-    font-weight: 900;
     transition: 0.2s;
     cursor: pointer;
 }
@@ -70,6 +68,13 @@ form {
 .settings__input:hover {
     transition: ease-in-out 0.2s;
     background-color: rgb(255, 242, 237);
+}
+
+.helper {
+    color: rgb(103, 101, 101);
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -95,7 +100,7 @@ input[type="number"]:focus {
 
 .win__message {
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
     font-size: 2em;
     background-color: #fff;
     border-radius: 105px;
@@ -110,6 +115,11 @@ input[type="number"]:focus {
     width: max-content;
 }
 
+.hidden {
+    visibility: hidden;
+    display: none;
+    font-weight: 0;
+}
 
 span {
     text-align: center;
@@ -124,18 +134,14 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 10vw;
     max-height: 100%;
 }
 
 .cards__list {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    gap: 25px 40px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.4em;
 }
 
 .card__el {
@@ -207,3 +213,24 @@ span {
     background-image: url('https://i.pinimg.com/736x/04/f6/73/04f673dd83adc84718d067890221a87b.jpg'); 
     background-size: cover;
 }
+
+.card_9.opened {
+    background-image: url('https://i.pinimg.com/474x/c2/e0/75/c2e075bf8c8c1faec0567269afbd76b4.jpg');
+    background-size: cover
+}
+
+.card_10.opened {
+    background-image: url('https://i.pinimg.com/474x/8b/4e/39/8b4e393227e3e5683dc3522dbc39e6d3.jpg');
+    background-size: cover
+}
+
+.card_11.opened {
+    background-image: url('https://i.pinimg.com/474x/24/fd/bc/24fdbce95a48c67231d55ddf6c3fb6dd.jpg');
+    background-size: cover
+}
+
+.card_12.opened {
+    background-image: url('https://i.pinimg.com/564x/12/27/c4/1227c475cdd7ea4a738fc7bcecc672c2.jpg');
+    background-size: cover
+}
+
