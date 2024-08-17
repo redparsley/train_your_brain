@@ -49,7 +49,7 @@ function setGameSettings() {
   inputHorisontal.max = "4";
   inputHorisontal.type = "number";
 
-  helpMessage.textContent = `Вы можете ввести четные значения от 2 до 10 включительно. Значение по умолчанию - 4х4` 
+  helpMessage.textContent = `Вы можете ввести четные значения от 2 до 4 включительно. Значение по умолчанию - 4х4` 
   btn.textContent = "Нажмите для начала игры";
 
   text.textContent =
