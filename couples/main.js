@@ -41,7 +41,7 @@ function setGameSettings() {
 
   inputVertical.placeholder = "Количество столбцов";
   inputVertical.min = "2";
-  inputVertical.max = "5";
+  inputVertical.max = "6";
   inputVertical.type = "number";
 
   inputHorisontal.placeholder = "Количество строк";
