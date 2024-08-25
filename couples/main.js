@@ -149,7 +149,7 @@ function checkOpenedCard(card) {
     setTimeout(() => {
       firstCard.classList.remove("opened");
       secondCard.classList.remove("opened");
-    }, 1000);
+    }, 500);
   }
 }
 
